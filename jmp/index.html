@@ -7,19 +7,21 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-    </style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+</style>
 
 </head>
-<body class="bg-gray-200 max-w-screen-md mx-auto p-10">
+<body class="bg-gray-200 max-w-screen-lg mx-auto p-10">
     <main class="flex flex-col md:flex-row w-full bg-white rounded-lg shadow">
-        <div class="flex-auto p-4 m-2">
+        <div class="flex-auto p-4 m-4">
             <!-- title -->
             <h2 class="text-xl font-bold">Risk Adjustment, Self Selection and Plan Design in Medicare Advantage</h2>
+            <div class="mt-2"></div>
             <!-- author -->
             <a href="/index.html" class="text-gray-500">Zhu Liang</a>
 
@@ -48,29 +50,59 @@
                             <span class="mx-0.5"></span>
                             <strong>Code</strong>
                         </div>
+                    </a>
                     
                 </div>
 
             </div>
             <hr class="my-4 border-gray-300">
 
-            <!-- abstract -->
+
             <div class="mt-4 bg-gray-50 p-4 rounded-lg">
+                <!-- abstract -->
                 <h3 class="text-md font-bold">Abstract</h3>
-                <p class="text-sm">
-                    will be added later
+                <p class="text-sm mt-2">
+                    Risk adjustment aims to equalize the profitability of diverse patient groups to prevent insurers from favoring inherently more profitable populations. However, evidence suggests that this system, widely implemented in Medicare Advantage (MA) markets, does not completely eliminate variations in profitability—a nature of the existing risk adjustment mechanisms. Low spenders remain more profitable than high spenders. Individuals possess private health perceptions, which influences hetrogeneous preferences for plan generosity. MA firms strategically leverage this by designing plans that encourage self-selection, allowing them to maximize profits. This explains key trends in the MA market: popular plans often offer lower generosity and prices; MA enrollees are generally healthier; and MA plans frequently benefit from overpayments from risk adjustment. This study underscores the challenges and policy implications of risk adjustment in health insurance environments.
                 </p>
                 <hr class="my-4 border-gray-300">
                 <h3 class="text-md font-bold mt-4">Keywords</h3>
-                <p class="text-sm">
+                <p class="text-sm mt-2">
                     private information, self-selection, product design, risk adjustment
                 </p>
                 <hr class="my-4 border-gray-300">
                 <!-- JEL Classification -->
                 <h3 class="text-md font-bold mt-4">JEL Classification</h3>
-                <p class="text-sm">
-                    will be added later
-                </p>
+
+                <ul class="mt-2 text-xs p-1">
+                    <li class="flex">
+                        <strong class="w-12 font-mono">L11</strong>
+                        Production, Pricing, and Market Structure
+                    </li>
+                    <li class="flex">
+                        <strong class="w-12 font-mono">I13</strong>
+                        Health Insurance, Public and Private
+                    </li>
+                    <li class="flex">
+                        <strong class="w-12 font-mono">I18</strong>
+                        Government Policy, Regulation, Public Health
+                    </li>
+                    <li class="flex">
+                        <strong class="w-12 font-mono">D22</strong>
+                        Firm Behavior: Empirical Analysis
+                    </li>
+                    <li class="flex">
+                        <strong class="w-12 font-mono">D82</strong>
+                        Asymmetric and Private Information, Mechanism Design
+                    </li>
+                </ul>
+
+            </div>
+
+            <hr class="my-4 border-gray-300">
+            <div class="mt-4 bg-gray-20 p-4 rounded-lg">
+                <!-- graph -->
+                <img src="spending_vs_capitation.png" alt="spending_vs_capitation", class=" mx-auto rounded-lg", width="60%">
+                <p class="text-xs text-center">Figure: Spending vs. Capitation</p>
             </div>
 
 
